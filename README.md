@@ -42,7 +42,8 @@ Movies were similar in their common words, common adjectives, and character coun
 
 <img width="439" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/63410bc5-6fa6-4957-a148-c5c78a1f6793">
 
-In *Batman*, Bruce Wayne had more dialogue than Batman. 
+**Bruce Wayne or Batman?**
+In *Batman*, Bruce had more lines in his role as Bruce Wayne than as Batman.
 In *The Dark Knight*, Bruce spoke about as often in his role of Bruce Wayne as in his role as Batman:
 <img width="636" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/0bb97381-47d3-460f-a89d-cb215b8272f1">
 
