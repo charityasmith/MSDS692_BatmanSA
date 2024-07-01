@@ -1,6 +1,8 @@
 # ReadMe Page for MSDS692_BatmanSA
 ## Batman Movie Analysis Project
 
+![image](https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/30e35112-0d7e-4177-a8cf-fe9b9f88e139)
+
 ### Project Overview
 This project aims to compare two Batman movies, *Batman* (1989) and *The Dark Knight* (2008), through Natural Language Processing (NLP) and sentiment analysis. The goal is to determine which Batman movie is the "darkest," most complex (subjective), and most popular based on the movie scripts and reviews.
 
