@@ -34,7 +34,8 @@ Batman movies are known for their complex characters and dark themes. This proje
 4. **Word Co-occurrence**: Created heatmaps to visualize the interactions between characters.
 5. **Adjective Frequency**: Identified the most common adjectives used to describe the characters.
 
-   Sample EDA images below
+A selection of EDA visualizations below:
+
 <img width="439" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/63410bc5-6fa6-4957-a148-c5c78a1f6793">
 
 <img width="636" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/0bb97381-47d3-460f-a89d-cb215b8272f1">
@@ -42,6 +43,9 @@ Batman movies are known for their complex characters and dark themes. This proje
 <img width="415" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/c681d573-438c-4745-9408-d41341a1b04b">
 
 <img width="625" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/a5e1f888-4e14-48bf-8228-4884b1335620">
+
+<img width="441" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/f69b0259-2eab-44e7-a954-b3143416ec89">
+
 
 
 
