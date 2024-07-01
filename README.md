@@ -42,14 +42,22 @@ Movies were similar in their common words, common adjectives, and character coun
 
 <img width="439" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/63410bc5-6fa6-4957-a148-c5c78a1f6793">
 
-In *Batman*, Bruce Wayne had more dialogue than Batman. In *The Dark Knight*, Bruce spoke about as often in his role of Bruce Wayne as in his role as Batman:
+In *Batman*, Bruce Wayne had more dialogue than Batman. 
+In *The Dark Knight*, Bruce spoke about as often in his role of Bruce Wayne as in his role as Batman:
 <img width="636" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/0bb97381-47d3-460f-a89d-cb215b8272f1">
+
+**Word Co-occurrence Heatmaps**
+Characters like Bruce, Vicki, Dent, and Joker have strong interactions, as shown by the high co-occurrence frequencies.
+The presence of frequent co-occurrences between key characters (e.g., Bruce and Vicki, Bruce and Joker) highlights pivotal relationships and interactions that drive the storyline.
 
 <img width="418" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/a8421525-21d6-4844-8fc8-a59606a7a3fc">
 <img width="415" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/c681d573-438c-4745-9408-d41341a1b04b">
 
+
+In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 <img width="625" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/a5e1f888-4e14-48bf-8228-4884b1335620">
 
+**Most Common Words in Movie Reviews:**
 <img width="441" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/f69b0259-2eab-44e7-a954-b3143416ec89">
 
 
