@@ -94,9 +94,11 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 
 4. **Average Sentiment for Main Characters**: Bar plot to display average sentiment for main characters using TextBlob and VADER.
 **TextBlob Results:**
+
 <img width="421" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/34135851-ffd1-4ef7-bfcb-23479353e40f">
 
 **VADER Results:**
+
 <img width="424" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/1683cb0c-7bb5-4c05-b052-24b35e6ce819">
 
 
@@ -105,6 +107,8 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 - **Darkness**: *Batman* is darker based on the sentiment analysis of the movie scripts, while *The Dark Knight* is darker based on the reviews.
 - **Subjectivity**: *Batman* is more subjective based on both the script and review analysis.
 - **Sentiment**: Both movies have generally positive reviews, with *Batman* having slightly higher positive sentiment.
+<img width="337" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/beba3fe7-b91d-4a64-b960-8baeb270ccc9">
+
 
 ### Challenges and Solutions
 - **Scraping Reviews**: Overcame the challenge of repeatedly clicking the "Load More" button by automating the process with selenium. I also implemented a loop to click the "Load More" button until all reviews were loaded.
