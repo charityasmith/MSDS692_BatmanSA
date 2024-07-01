@@ -85,10 +85,20 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 
 ### Visualizations
 1. **Box Plot of Sentiment Polarity Distribution**: Showed the spread of sentiment scores.
-2. **Heatmap of Sentiment Over Time**: Visualized sentiment changes throughout the movie.
-3. **Violin Plot of Sentiment Subjectivity**: Displayed the distribution of subjectivity scores.
-4. **Scatter Plot of Sentiment Polarity vs. Subjectivity**: Correlated sentiment polarity with subjectivity.
-5. **Line Plot of Sentiment Trends Over Time**: Tracked sentiment changes across the movie.
+<img width="316" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/e0717f28-6057-40ef-8694-c502d825c0f4">
+
+2. **Visualization of Sentiment Over Time**: Visualized sentiment changes throughout the movie. <img width="334" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/6682066e-3a6e-4fdd-9c8b-6a94bed567ed">
+
+3. **Scatter Plot of Sentiment Polarity vs. Subjectivity**: Correlated sentiment polarity with subjectivity.
+ <img width="327" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/28b7089c-4696-477d-928a-fa6bb450208a">
+
+4. **Average Sentiment for Main Characters**: Bar plot to display average sentiment for main characters using TextBlob and VADER.
+**TextBlob Results:**
+<img width="421" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/34135851-ffd1-4ef7-bfcb-23479353e40f">
+
+**VADER Results:**
+<img width="424" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/1683cb0c-7bb5-4c05-b052-24b35e6ce819">
+
 
 
 ### Findings
@@ -98,7 +108,19 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 
 ### Challenges and Solutions
 - **Scraping Reviews**: Overcame the challenge of repeatedly clicking the "Load More" button by automating the process with selenium. I also implemented a loop to click the "Load More" button until all reviews were loaded.
-- **Handling Complex Dialogues**: Improved sentiment analysis by using multiple models (TextBlob and VADER) to capture nuanced language.
+
+- **Handling Complex Dialogues**: Improved sentiment analysis by using multiple models (TextBlob and VADER) to capture nuanced language. Used patterns to identify and remove scene descriptions (e.g., INT., EXT., FADE IN). Identified character names by detecting uppercase lines with limited words.
+<img width="464" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/9dab1d26-9ab3-4b72-b47a-755228f129e3">
+
+
+
+### Challenges that Remain Open
+The Joker's dialogues, as analyzed through TextBlob and VADER, show a neutral or slightly positive sentiment score. However, The Joker often uses complex and nuanced language that can mask the underlying dark intent. His dialogues are laced with sarcasm, irony, and a playful tone that may be interpreted by sentiment analysis models as neutral or slightly positive. Additionally, The Joker's dialogues often contain dark humor, which can be perceived as humorous or playful. This can skew the sentiment analysis towards neutral or positive, even though the content is dark and disturbing! Given these factors, the neutral or slightly positive sentiment scores for the Joker's dialogues can be understood as a limitation of the sentiment analysis models in capturing the full context and nuance of his speech.
+
+<img width="245" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/79559b01-6973-4a18-8676-fb4a76cdb3e7">
+
+
+
 
 ### Future Work
 1. **Explore Character Interactions**: Create conversation maps to visualize character dynamics and interactions.
