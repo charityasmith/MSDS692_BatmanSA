@@ -70,8 +70,6 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 <img width="441" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/f69b0259-2eab-44e7-a954-b3143416ec89">
 
 
-
-
    
 ### Sentiment Analysis
 - **TextBlob**: Used for calculating polarity and subjectivity scores of the dialogues and reviews.
@@ -80,6 +78,8 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 
 ### Comparative Analysis
 1. **Overall Sentiment Trends**: Compared the average sentiment scores across the two movies.
+<img width="408" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/3d9df830-058f-46e6-a007-24c7016330b9">
+
 2. **Hero vs. Villain Sentiment**: Analyzed the sentiment of dialogues between Batman/Bruce Wayne and the main villains.
 3. **Supporting Characters Sentiment**: Compared the sentiment of supporting characters' dialogues.
 
