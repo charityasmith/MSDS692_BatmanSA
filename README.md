@@ -1,4 +1,4 @@
-# ReadMe Page for MSDS692_BatmanSA
+## ReadMe
 ## Batman Movie Analysis Project
 
 ![image](https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/30e35112-0d7e-4177-a8cf-fe9b9f88e139)
