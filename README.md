@@ -2,14 +2,14 @@
 ## Batman Movie Analysis Project
 
 ### Project Overview
-This project aims to compare two Batman movies, "Batman" (1989) and "The Dark Knight" (2008), through Natural Language Processing (NLP) and sentiment analysis. The goal is to determine which Batman movie is the "darkest" and most subjective based on the movie scripts and reviews.
+This project aims to compare two Batman movies, *Batman* (1989) and *The Dark Knight* (2008), through Natural Language Processing (NLP) and sentiment analysis. The goal is to determine which Batman movie is the "darkest," most complex (subjective), and most popular based on the movie scripts and reviews.
 
 ### Motivation
 Batman movies are known for their complex characters and dark themes. This project seeks to explore these aspects by analyzing the dialogues and reviews of the movies. The insights gained can inform future movie productions by highlighting elements that resonate with audiences.
 
 ### Data Sources
-- **Movie Scripts**: PDF files of the scripts for "Batman" (1989) and "The Dark Knight" (2008).
-- **Movie Reviews**: Reviews scraped from Rotten Tomatoes.
+- **Movie Scripts**: PDF files of the scripts for Batman (1989) and The Dark Knight (2008).
+- **Movie Reviews**: Reviews for the two movies scraped from Rotten Tomatoes.
 
 ### Tools and Libraries
 - **Python Libraries**: pdfplumber, re, nltk, pandas, matplotlib, seaborn, TextBlob, and selenium.
@@ -28,6 +28,10 @@ Batman movies are known for their complex characters and dark themes. This proje
 4. **Word Co-occurrence**: Created heatmaps to visualize the interactions between characters.
 5. **Adjective Frequency**: Identified the most common adjectives used to describe the characters.
 
+   Sample EDA images below
+
+   
+
 ### Sentiment Analysis
 - **TextBlob**: Used for calculating polarity and subjectivity scores of the dialogues and reviews.
 - **VADER**: Used to analyze sentiment in social media and informal text.
@@ -44,10 +48,12 @@ Batman movies are known for their complex characters and dark themes. This proje
 4. **Scatter Plot of Sentiment Polarity vs. Subjectivity**: Correlated sentiment polarity with subjectivity.
 5. **Line Plot of Sentiment Trends Over Time**: Tracked sentiment changes across the movie.
 
+
+
 ### Findings
-- **Darkness**: "Batman" is darker based on the sentiment analysis of the movie scripts, while "The Dark Knight" is darker based on the reviews.
-- **Subjectivity**: "Batman" is more subjective based on both the script and review analysis.
-- **Sentiment**: Both movies have generally positive reviews, with "Batman" having slightly higher positive sentiment.
+- **Darkness**: *Batman* is darker based on the sentiment analysis of the movie scripts, while *The Dark Knight* is darker based on the reviews.
+- **Subjectivity**: *Batman* is more subjective based on both the script and review analysis.
+- **Sentiment**: Both movies have generally positive reviews, with *Batman* having slightly higher positive sentiment.
 
 ### Challenges and Solutions
 - **Scraping Reviews**: Overcame the challenge of repeatedly clicking the "Load More" button by automating the process with selenium.
@@ -69,4 +75,4 @@ Batman movies are known for their complex characters and dark themes. This proje
   - [BatmanDialogue.ipynb](./BatmanDialogue.ipynb)
   - [ScrapingRottenTomatoes.ipynb](./ScrapingRottenTomatoes.ipynb)
 
-This project showcases the power of NLP and sentiment analysis in uncovering the hidden aspects of movies. By comparing different elements of the Batman movies, we gain insights into the themes and character dynamics that contribute to their popularity and impact.
+This project showcases the power of NLP and sentiment analysis in uncovering the hidden aspects of movies. By comparing different elements of the Batman movies, I gained insights into the themes and character dynamics that contribute to their popularity and impact.
