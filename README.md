@@ -73,19 +73,16 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 
 
    
-<br/>
 ### Sentiment Analysis
 - **TextBlob**: Used for calculating polarity and subjectivity scores of the dialogues and reviews.
 - **VADER**: Used to analyze sentiment in social media and informal text.
 
 
-<br/>
 ### Comparative Analysis
 1. **Overall Sentiment Trends**: Compared the average sentiment scores across the two movies.
 2. **Hero vs. Villain Sentiment**: Analyzed the sentiment of dialogues between Batman/Bruce Wayne and the main villains.
 3. **Supporting Characters Sentiment**: Compared the sentiment of supporting characters' dialogues.
 
-<br/>
 ### Visualizations
 1. **Box Plot of Sentiment Polarity Distribution**: Showed the spread of sentiment scores.
 2. **Heatmap of Sentiment Over Time**: Visualized sentiment changes throughout the movie.
@@ -94,18 +91,15 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 5. **Line Plot of Sentiment Trends Over Time**: Tracked sentiment changes across the movie.
 
 
-<br/>
 ### Findings
 - **Darkness**: *Batman* is darker based on the sentiment analysis of the movie scripts, while *The Dark Knight* is darker based on the reviews.
 - **Subjectivity**: *Batman* is more subjective based on both the script and review analysis.
 - **Sentiment**: Both movies have generally positive reviews, with *Batman* having slightly higher positive sentiment.
 
-<br/>
 ### Challenges and Solutions
 - **Scraping Reviews**: Overcame the challenge of repeatedly clicking the "Load More" button by automating the process with selenium. I also implemented a loop to click the "Load More" button until all reviews were loaded.
 - **Handling Complex Dialogues**: Improved sentiment analysis by using multiple models (TextBlob and VADER) to capture nuanced language.
 
-<br/>
 ### Future Work
 1. **Explore Character Interactions**: Create conversation maps to visualize character dynamics and interactions.
 2. **Evaluate Sentiment Analysis**: Improve models to better detect sarcasm and tone.
@@ -114,7 +108,6 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 5. **Temporal Analysis**: Conduct temporal analysis of sentiment to observe character emotion evolution.
 6. **Additional Movie Analysis**: Extend the analysis to include more Batman movies for comparative insights.
 
-<br/>
 ### Repository Contents
 - **Presentation PDF**: [BatmanNLP_Presentation_CSmith.pdf](./BatmanNLP_Presentation_CSmith.pdf)
 - **Jupyter Notebooks**:
@@ -123,5 +116,4 @@ In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
   - [BatmanDialogue.ipynb](./BatmanDialogue.ipynb)
   - [ScrapingRottenTomatoes.ipynb](./ScrapingRottenTomatoes.ipynb)
 
-<br/>
 This project showcases the power of NLP and sentiment analysis in uncovering the hidden aspects of movies. By comparing different elements of the Batman movies, I gained insights into the themes and character dynamics that contribute to their popularity and impact.
