@@ -36,9 +36,15 @@ Batman movies are known for their complex characters and dark themes. This proje
 
 A selection of EDA visualizations below:
 
+Movies were similar in their common words, common adjectives, and character count:
+**Number of Unique Characters in Each Movie:**
+*Batman*: 149, *The Dark Knight*: 143
+
 <img width="439" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/63410bc5-6fa6-4957-a148-c5c78a1f6793">
 
+In *Batman*, Bruce Wayne had more dialogue than Batman. In *The Dark Knight*, Bruce spoke about as often in his role of Bruce Wayne as in his role as Batman:
 <img width="636" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/0bb97381-47d3-460f-a89d-cb215b8272f1">
+
 <img width="418" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/a8421525-21d6-4844-8fc8-a59606a7a3fc">
 <img width="415" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/c681d573-438c-4745-9408-d41341a1b04b">
 
