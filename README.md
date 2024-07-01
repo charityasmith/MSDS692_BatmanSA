@@ -15,6 +15,8 @@ Batman movies are known for their complex characters and dark themes. This proje
 - **Movie Scripts**: PDF files of the scripts for Batman (1989) and The Dark Knight (2008).
 - **Movie Reviews**: Reviews for the two movies scraped from Rotten Tomatoes.
 
+<img width="479" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/3448754f-756b-49c7-b058-cf9f0dc504fb">
+
 ### Tools and Libraries
 - **Python Libraries**: pdfplumber, re, nltk, pandas, matplotlib, seaborn, TextBlob, and selenium.
 - **Data Extraction**: Used pdfplumber to extract text from PDF files and selenium for web scraping movie reviews.
@@ -33,6 +35,15 @@ Batman movies are known for their complex characters and dark themes. This proje
 5. **Adjective Frequency**: Identified the most common adjectives used to describe the characters.
 
    Sample EDA images below
+<img width="439" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/63410bc5-6fa6-4957-a148-c5c78a1f6793">
+
+<img width="636" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/0bb97381-47d3-460f-a89d-cb215b8272f1">
+<img width="418" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/a8421525-21d6-4844-8fc8-a59606a7a3fc">
+<img width="415" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/c681d573-438c-4745-9408-d41341a1b04b">
+
+<img width="625" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/a5e1f888-4e14-48bf-8228-4884b1335620">
+
+
 
    
 
