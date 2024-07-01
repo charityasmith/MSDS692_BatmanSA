@@ -4,34 +4,28 @@
 ![image](https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/30e35112-0d7e-4177-a8cf-fe9b9f88e139)
 ![image](https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/ba5e5d0e-59e0-406b-a1aa-6b7d16127945)
 
-<br/>
 ### Project Overview
 This project aims to compare two Batman movies, *Batman* (1989) and *The Dark Knight* (2008), through Natural Language Processing (NLP) and sentiment analysis. The goal is to determine which Batman movie is the "darkest," most complex (subjective), and most popular based on the movie scripts and reviews.
 
-<br/>
 ### Motivation
 Batman movies are known for their complex characters and dark themes. This project seeks to explore these aspects by analyzing the dialogues and reviews of the movies. The insights gained can inform future movie productions by highlighting elements that resonate with audiences.
 
-<br/>
 ### Data Sources
 - **Movie Scripts**: PDF files of the scripts for Batman (1989) and The Dark Knight (2008).
 - **Movie Reviews**: Reviews for the two movies scraped from Rotten Tomatoes.
 
 <img width="479" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/3448754f-756b-49c7-b058-cf9f0dc504fb">
 
-<br/>
 ### Tools and Libraries
 - **Python Libraries**: pdfplumber, re, nltk, pandas, matplotlib, seaborn, TextBlob, and selenium.
 - **Data Extraction**: Used pdfplumber to extract text from PDF files and selenium for web scraping movie reviews.
 
-<br/>
 ### Data Preprocessing
 1. **Extracted text** from PDFs using pdfplumber.
 2. **Removed non-dialogue elements** (scene descriptions) using regex patterns.
 3. **Tokenized text** and removed stopwords using nltk.
 4. **Cleaned reviews** by removing punctuation, converting to lowercase, and tokenizing.
 
-<br/>
 ### Exploratory Data Analysis (EDA)
 1. **Word Count Analysis**: Calculated the average word count per dialogue and reviewed.
 2. **Vocabulary Richness**: Measured the richness of vocabulary in the dialogues and reviews.
@@ -48,25 +42,29 @@ Movies were similar in their common words, common adjectives, and character coun
 <img width="439" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/63410bc5-6fa6-4957-a148-c5c78a1f6793">
 
 <br/>
+
 **Bruce Wayne or Batman?**
 In *Batman*, Bruce had more lines in his role as Bruce Wayne than as Batman.
 In *The Dark Knight*, Bruce spoke about as often in his role of Bruce Wayne as in his role as Batman:
 <img width="636" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/0bb97381-47d3-460f-a89d-cb215b8272f1">
 
 <br/>
+
 **Word Co-occurrence Heatmaps**
 Characters like Bruce, Vicki, Dent, and Joker have strong interactions, as shown by the high co-occurrence frequencies.
 The presence of frequent co-occurrences between key characters (e.g., Bruce and Vicki, Bruce and Joker) highlights pivotal relationships and interactions that drive the storyline.
-
+<br/>
 <img width="418" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/a8421525-21d6-4844-8fc8-a59606a7a3fc">
 <img width="415" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/c681d573-438c-4745-9408-d41341a1b04b">
 
 <br/>
+
 **Dialogue Count in Movie Scripts:**
 In both movies, The Joker had the most lines, followed by Batman/Bruce Wayne:
 <img width="625" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/a5e1f888-4e14-48bf-8228-4884b1335620">
 
 <br/>
+
 **Most Common Words in Movie Reviews:**
 <br/>
 <img width="441" alt="image" src="https://github.com/charityasmith/MSDS692_BatmanSA/assets/20384712/f69b0259-2eab-44e7-a954-b3143416ec89">
